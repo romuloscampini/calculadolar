@@ -9,3 +9,8 @@
 .mtop10{
     margin-top:10px;
 }
+
+.info-text{
+    color: rgb(170, 170, 170);
+    padding-left:2em;
+}

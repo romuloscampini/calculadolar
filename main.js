@@ -20,6 +20,8 @@
                 var sum5 = sum4 + sum3;
                 var total = sum5.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL'})
                 $('#total').val(total);
+                var description = '(R$ ' + data.value[0].cotacaoVenda + ' + 4% spread NuBank+ 6.38% IOF)'
+                $('#description').text(description);
             } else {
                 bootbox.alert("Cotação do dólar comercial não disponibilizada pelo BCB para o dia de hoje.");
             }
